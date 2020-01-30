@@ -15,7 +15,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Runtime.InteropServices;
 using System.Security;
 
-namespace FEBuilderGBA_Installer
+namespace FEBuilderGBA_Downloader
 {
     //その他、雑多なもの.
     //名前タイプするのが面倒なので Util -> U とする.

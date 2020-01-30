@@ -1,4 +1,4 @@
-﻿namespace FEBuilderGBA_Installer
+﻿namespace FEBuilderGBA_Downloader
 {
     partial class Form1
     {
@@ -42,8 +42,8 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::FEBuilderGBA_Installer.Properties.Resources.FEBuilderGBA_logo1;
-            this.pictureBox1.Location = new System.Drawing.Point(12, -1);
+            this.pictureBox1.Image = global::FEBuilderGBA_Downloader.Properties.Resources.FEBuilderGBA_logo1;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1123, 278);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -52,7 +52,7 @@
             // 
             // InstallButton
             // 
-            this.InstallButton.Location = new System.Drawing.Point(287, 533);
+            this.InstallButton.Location = new System.Drawing.Point(287, 524);
             this.InstallButton.Name = "InstallButton";
             this.InstallButton.Size = new System.Drawing.Size(851, 47);
             this.InstallButton.TabIndex = 2;
@@ -63,15 +63,16 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 279);
+            this.label1.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label1.Location = new System.Drawing.Point(12, 281);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(127, 18);
+            this.label1.Size = new System.Drawing.Size(184, 24);
             this.label1.TabIndex = 3;
             this.label1.Text = "Install Directory";
             // 
             // PathTextBox
             // 
-            this.PathTextBox.Location = new System.Drawing.Point(15, 304);
+            this.PathTextBox.Location = new System.Drawing.Point(15, 309);
             this.PathTextBox.Name = "PathTextBox";
             this.PathTextBox.Size = new System.Drawing.Size(1066, 25);
             this.PathTextBox.TabIndex = 4;
@@ -79,7 +80,7 @@
             // 
             // BrowseButton
             // 
-            this.BrowseButton.Location = new System.Drawing.Point(1087, 302);
+            this.BrowseButton.Location = new System.Drawing.Point(1087, 307);
             this.BrowseButton.Name = "BrowseButton";
             this.BrowseButton.Size = new System.Drawing.Size(48, 33);
             this.BrowseButton.TabIndex = 5;
@@ -91,24 +92,25 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("MS UI Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label2.Location = new System.Drawing.Point(950, 230);
+            this.label2.Location = new System.Drawing.Point(884, 222);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(173, 33);
+            this.label2.Size = new System.Drawing.Size(222, 33);
             this.label2.TabIndex = 6;
-            this.label2.Text = "- Installer -";
+            this.label2.Text = "- Downloader -";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label3.Location = new System.Drawing.Point(12, 347);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(66, 18);
+            this.label3.Size = new System.Drawing.Size(94, 24);
             this.label3.TabIndex = 7;
             this.label3.Text = "License";
             // 
             // LisenceTextBox
             // 
-            this.LisenceTextBox.Location = new System.Drawing.Point(15, 368);
+            this.LisenceTextBox.Location = new System.Drawing.Point(15, 373);
             this.LisenceTextBox.Multiline = true;
             this.LisenceTextBox.Name = "LisenceTextBox";
             this.LisenceTextBox.ReadOnly = true;
@@ -129,8 +131,9 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.InstallButton);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "FEBuilderGBA Installer";
+            this.Text = "FEBuilderGBA Downloader";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

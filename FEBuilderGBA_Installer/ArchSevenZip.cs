@@ -5,7 +5,7 @@ using System.Diagnostics;
 using System.Runtime.InteropServices;
 using System.Text;
 
-namespace FEBuilderGBA_Installer
+namespace FEBuilderGBA_Downloader
 {
     public class ArchSevenZip
     {

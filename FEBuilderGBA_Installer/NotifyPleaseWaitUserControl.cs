@@ -7,7 +7,7 @@ using System.Diagnostics;
 using System.Text;
 using System.Windows.Forms;
 
-namespace FEBuilderGBA_Installer
+namespace FEBuilderGBA_Downloader
 {
     public partial class NotifyPleaseWaitUserControl : UserControl
     {

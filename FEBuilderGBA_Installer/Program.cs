@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace FEBuilderGBA_Installer
+namespace FEBuilderGBA_Downloader
 {
     static class Program
     {

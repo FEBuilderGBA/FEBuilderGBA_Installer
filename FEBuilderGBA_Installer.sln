@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FEBuilderGBA_Installer", "FEBuilderGBA_Installer\FEBuilderGBA_Installer.csproj", "{D68C78C2-B58F-4578-97A3-630F72FEA63C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FEBuilderGBA_Downloader", "FEBuilderGBA_Installer\FEBuilderGBA_Downloader.csproj", "{D68C78C2-B58F-4578-97A3-630F72FEA63C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

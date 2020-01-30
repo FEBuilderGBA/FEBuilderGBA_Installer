@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Windows.Forms;
 using System.Text;
 
-namespace FEBuilderGBA_Installer
+namespace FEBuilderGBA_Downloader
 {
     public class InputFormRef
     {

@@ -1,4 +1,4 @@
-﻿namespace FEBuilderGBA_Installer
+﻿namespace FEBuilderGBA_Downloader
 {
     partial class NotifyPleaseWaitUserControl
     {

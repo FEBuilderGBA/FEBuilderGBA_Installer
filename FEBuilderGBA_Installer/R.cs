@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.Text;
 using System.Windows.Forms;
 
-namespace FEBuilderGBA_Installer
+namespace FEBuilderGBA_Downloader
 {
     //string.Format(Properties.Resources,,,)と書くのが面倒なので短縮形をつくる.
     static class R

@@ -1,0 +1,4 @@
+*.gba
+FEBuilderGBA_Installer/bin/
+FEBuilderGBA_Installer/obj
+.vs/

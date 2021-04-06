@@ -37,6 +37,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.LisenceTextBox = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -52,7 +54,7 @@
             // 
             // InstallButton
             // 
-            this.InstallButton.Location = new System.Drawing.Point(287, 524);
+            this.InstallButton.Location = new System.Drawing.Point(287, 627);
             this.InstallButton.Name = "InstallButton";
             this.InstallButton.Size = new System.Drawing.Size(851, 47);
             this.InstallButton.TabIndex = 2;
@@ -114,15 +116,37 @@
             this.LisenceTextBox.Multiline = true;
             this.LisenceTextBox.Name = "LisenceTextBox";
             this.LisenceTextBox.ReadOnly = true;
-            this.LisenceTextBox.Size = new System.Drawing.Size(1120, 113);
+            this.LisenceTextBox.Size = new System.Drawing.Size(1120, 103);
             this.LisenceTextBox.TabIndex = 8;
             this.LisenceTextBox.Text = resources.GetString("LisenceTextBox.Text");
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label4.Location = new System.Drawing.Point(12, 487);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(61, 24);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "Note";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(15, 514);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(1120, 104);
+            this.textBox1.TabIndex = 10;
+            this.textBox1.Text = resources.GetString("textBox1.Text");
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.ClientSize = new System.Drawing.Size(1150, 591);
+            this.ClientSize = new System.Drawing.Size(1150, 688);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.LisenceTextBox);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -134,6 +158,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "FEBuilderGBA Downloader";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -150,6 +175,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox LisenceTextBox;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 

@@ -212,5 +212,10 @@ namespace FEBuilderGBA_Downloader
             out_url = downloadurl;
             return "";
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
